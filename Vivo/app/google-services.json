@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "212272479728",
+    "firebase_url": "https://vivo-a13542.firebaseio.com",
+    "project_id": "vivo-a13542",
+    "storage_bucket": "vivo-a13542.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212272479728:android:f9de61e95eda8e88",
+        "android_client_info": {
+          "package_name": "de.helberg.vivo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212272479728-m167drpmj9cr37r8ehh48uu7c1vim79r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBamekIA8owdGjFlzKa9ixhFHFZhCknMps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212272479728-m167drpmj9cr37r8ehh48uu7c1vim79r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -21,9 +21,17 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'androidx.appcompat:appcompat:1.0.2'
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test:runner:1.2.0'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0-rc01'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-beta2'
+    //implementation "com.google.ar.sceneform.ux:sceneform-ux:1.10.0"
+    testImplementation 'junit:junit:4.13-beta-3'
+    androidTestImplementation 'androidx.test:runner:1.3.0-alpha01'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0-alpha01'
+    // Firebase configuration
+    implementation 'com.google.firebase:firebase-core:17.0.0'
+    // WARNING: API 'variant.getMergeResources()' is obsolete
+    //classpath 'io.fabric.tools:gradle:1.28.0'
 }
+
+// Firebase configuration
+apply plugin: 'com.google.gms.google-services'
